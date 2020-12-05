@@ -1,0 +1,38 @@
+body{
+    /* background-color: #141414; */
+}
+
+.log{
+    background-color: 	rgb(192,192,192)
+}
+.btn1{
+    background-color: #141414;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 100%;
+}
+.btn1:hover{
+    background-color: rgb(39, 39, 39);
+}
+.form-control{
+    background-color: white;
+    color: #141414;;
+    border: none;
+    outline: 1px;
+    padding: 23px 20px;
+}
+.form-control:focus{
+    background-color: white;
+    color: #141414;;
+    border: none;
+    outline: none;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+}
+
+.navbar-nav{
+    color: white;
+}
