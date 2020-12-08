@@ -30,39 +30,100 @@
   <body>
     <div class="limiter">
       <div class="container-login100">
-        <div class="wrap-login100">
-  
-            <form>
-                <div class="form-group">
-                  <label for="exampleFormControlInput1">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <form class="register100-form validate-form">
+          <div class="row no-gutters">
+            <div class="col-lg-6">
+              <div class="wrap-register-left">
+                <span class="login100-form-title">
+                 Personal Information
+                </span>
+                  <div class="form-group ">
+                    <input type="text" class="form-control" id="inputLastname" placeholder="Lastname" required>
+                  </div>
+                  <div class="form-group ">
+                    <input type="text" class="form-control" id="inputFirstname" placeholder="Firstname" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="inputMiddlename" placeholder="Middlename" required>
+                  </div>
+                <div class="form-row">
+                  <div class="for-group col-md-8">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <input type="text" class="form-control" id="inputContact" placeholder="Mobile Number" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <select id="inputState" class="form-control" required>
+                      <option disabled selected="true">Gender</option>
+                      <option>Male</option>
+                      <option>Female</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="date" class="form-control" id="inputBirthday" required>
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label for="exampleFormControlSelect1">Example select</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Address" required>
                 </div>
-                <div class="form-group">
-                  <label for="exampleFormControlSelect2">Example multiple select</label>
-                  <select multiple class="form-control" id="exampleFormControlSelect2">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="wrap-register-right">
+                <span class="login100-form-title text-white">
+                   Account Details
+                </span>
+                <div class="form-row">
+                  <div class="form-group col-md-8">
+                    <input type="text" class="form-control" id="inputSponsor" placeholder="Sponsor" required>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <input type="email" class="form-control" id="inputGroup" placeholder="Group" required>
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Example textarea</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <div class="form-row">
+                  <div class="for-group col-md-4">
+                    <input type="text" class="form-control" id="inputPlacement" placeholder="Placement" required>
+                  </div>
+                  <div class="for-group col-md-4">
+                    <input type="text" class="form-control" id="inputCode" placeholder="Activation Code" required>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <input type="email" class="form-control" id="inputPin" placeholder="Activation Pin" required>
+                  </div>
                 </div>
-              </form>
-        </div>
+                
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="username" placeholder="Username" required>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-lg-6">
+                      <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="form-group col-lg-6">
+                      <input type="text" class="form-control" id="password" placeholder="Confirm Password" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check text-white">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label" for="gridCheck">
+                        I Agree with the FWORLD Terms & Conditions
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-group mt-3 pull-right">
+                    <a href="login.html" class="btn btn-primary">Back</a>
+                    <button class="btn btn-primary">Register</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
 

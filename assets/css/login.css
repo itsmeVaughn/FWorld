@@ -4,6 +4,7 @@
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
 
 @font-face {
   font-family: Poppins-Regular;
@@ -168,6 +169,25 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
+  background: silver;
+  /* background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0); */
+}
+
+.container-register100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
   background: #9053c7;
   background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
   background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
@@ -176,6 +196,71 @@ iframe {
 }
 
 .wrap-login100 {
+  width: 100%;
+  background: #fff;
+  border-radius: 0px;
+  overflow: hidden;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2em 1.5em 5em;
+}
+
+.wrap-login100 {
+  width: 100%;
+  background: #fff;
+  border-radius: 0px;
+  overflow: hidden;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+}
+.wrap-register-left {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 0px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.wrap-register-right {
+  width: 100%;
+  height: 100%;
+  background:rgb(51, 51, 51);
+  border-radius: 0px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.login-btn{
+  color: #bbb;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background: rgb(34, 34, 34);
+  font-size: 2rem;
+}
+.login-btn:hover{
+  background: rgb(19, 19, 19);
+}
+.wrap-register100 {
   width: 960px;
   background: #fff;
   border-radius: 10px;
@@ -188,9 +273,8 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 100px 130px 33px 95px;
+  padding: 50px 80px 33px 80px;
 }
-
 /*------------------------------------------------------------------
 [  ]*/
 .login100-pic {
@@ -207,9 +291,28 @@ iframe {
 .login100-form {
   width: 50%;
   margin: auto;
+  margin: 10px;
+  box-shadow: 5px 10px 18px #888888;
+
+}
+
+.register100-form {
+  width: 80%;
+  margin: auto;
 }
 
 .login100-form-title {
+  font-family: Poppins-Bold;
+  font-size: 32px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.register100-form-title {
   font-family: Poppins-Bold;
   font-size: 24px;
   color: #333333;
@@ -230,6 +333,11 @@ iframe {
   margin-bottom: 10px;
 }
 
+.form-control{
+  font-family: Poppins-Regular;
+  color: #000000;
+}
+
 .input100 {
   font-family: Poppins-Medium;
   font-size: 15px;
@@ -240,7 +348,7 @@ iframe {
   width: 100%;
   background: #e6e6e6;
   height: 50px;
-  border-radius: 25px;
+  border-radius: 0px;
   padding: 0 30px 0 68px;
 }
 
@@ -250,14 +358,14 @@ iframe {
 .focus-input100 {
   display: block;
   position: absolute;
-  border-radius: 25px;
+  border-radius: 0px;
   bottom: 0;
   left: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(87,184,70, 0.8);
+  color: rgba(32, 32, 32, 0.8);
 }
 
 .input100:focus + .focus-input100 {
@@ -305,13 +413,25 @@ iframe {
 }
 
 .input100:focus + .focus-input100 + .symbol-input100 {
-  color: #57b846;
+  color: rgba(32, 32, 32, 0.8);
   padding-left: 28px;
 }
 
 /*------------------------------------------------------------------
 [ Button ]*/
 .container-login100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.container-register100-form-btn {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -352,6 +472,10 @@ iframe {
 .login100-form-btn:hover {
   background: #1d1d1d;
 }
+.register100-form-btn:hover {
+  background: #1d1d1d;
+}
+
 
 
 
@@ -460,4 +584,174 @@ iframe {
     visibility: visible;
     opacity: 1;
   }
+}
+
+/* Steppers css */
+.multistep-container
+{
+	max-width: 610px;
+	margin: 0 auto;
+}
+.multistep-container .active-button
+{
+	display: table;
+	margin: auto;
+	padding-left: 0;
+	overflow:hidden;
+	margin-bottom: 25px;
+}
+.multistep-container .active-button li
+{
+	display: inline-block;
+	width: 180px;
+}
+.multistep-container .active-button li .round-btn
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #ccc;
+	display: block;
+	color: #000;
+	text-align: center;
+	font-family: 'poppins';
+	font-weight: 500;
+	line-height: 30px;
+	max-width: 100%;
+	margin: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.multistep-container .active-button li.active .round-btn
+{
+	background-color: var(--pink);
+	color: var(--white);
+}
+
+.multistep-container .active-button li:not(:first-child) .round-btn:before
+{
+	position: absolute;
+	content: '';
+	width: 154px;
+	height: 3px;
+	background-color: #ccc;
+	left: -154px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+.multistep-container .active-button li.active:not(:first-child) .round-btn:before
+{
+	background-color: var(--pink)
+}
+
+.multistep-container .mutistep-form-area
+{
+	background-color: var(--white);
+	margin-top: 30px;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+	position: relative;
+	overflow:hidden;
+	min-height: 544px;
+	max-height: 544px;
+}
+
+.multistep-container .mutistep-form-area .form-box
+{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+
+.multistep-container .mutistep-form-area .form-box h4
+{
+	font-family: 'montserrat';
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.multistep-container .mutistep-form-area .form-box label
+{
+	font-family: 'roboto';
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.multistep-container .mutistep-form-area .form-box:nth-child(2),
+.multistep-container .mutistep-form-area .form-box:nth-child(3)
+{
+	display: none;
+}
+
+.multistep-container .mutistep-form-area .form-box .button-row .next,
+.multistep-container .mutistep-form-area .form-box .button-row .previous,
+.multistep-container .mutistep-form-area .form-box .button-row .submit
+{
+	background-color: var(--pink);
+	border:0;
+	box-shadow: none;
+	padding: 7px 30px;
+	min-width: 100px;
+	border-radius: 20px;
+	color: var(--white);
+	font-family: 'roboto';
+	font-weight: 500;
+}
+
+.multistep-container .mutistep-form-area .form-box .button-row .submit
+{
+	background-color: var(--purple);
+}
+
+.multistep-container .mutistep-form-area .form-box .button-row
+{
+	display: table;
+	margin: auto;
+	margin-top: 20px;
+}
+.bs-stepper{
+  width: 100%;
+}
+
+.form__label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+}
+
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 100%;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-4rem);
+  transform: translateY(-4rem);
+}
+
+.bottomdiv {
+  height: 50px;
+  width: 100%;
+  position:absolute;
+  left:0;
+  bottom:0;
 }
